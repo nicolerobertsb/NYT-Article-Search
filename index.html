@@ -14,14 +14,46 @@
 
 <body>
 
-    <head>
+    <header>
         <nav class="navbar navbar-dark bg-dark">
             <a class="navbar-brand mx-auto" href="#">
                 <img src="assets/images/icon.png" width="30" height="30" class="d-inline-block align-top" alt="">
                 NYT Article Search
             </a>
         </nav>
-    </head>
+    </header>
+
+    <!-- Search Parameters; -->
+    <div class="container border rounded-lg">
+        <h3>Search Parameters</h3>
+
+        Search Term:<br>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+            aria-describedby="basic-addon1">
+        Number of Records Retrieve:<br>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+            aria-describedby="basic-addon1">
+        Start Year(Optional):
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+            aria-describedby="basic-addon1">
+        End Year(Optional):
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+            aria-describedby="basic-addon1">
+        <button id="search-button">
+            <img src="assets/images/search.png" width=50px height=50px>Search
+        </button>
+        <button id="clear-results-button">
+            <img src="assets/images/clear.png" width=50px height=50px>Cancel
+        </button>
+
+    </div>
+
+    <div class="container border rounded-lg">
+        <h3>Top Articles</h3>
+        <div id="articles-show-here">
+            lalalalla
+        </div>
+    </div>
 
 
 
